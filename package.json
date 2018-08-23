@@ -1,0 +1,41 @@
+{
+  "name": "restfull-api",
+  "version": "1.0.0",
+  "description": "API REST com TypeScript, Node, ES6 e MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "NODE_ENV=development nodemon ./node_modules/.bin/ts-node ./server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prmorais13/api-rest-node-rafael.git"
+  },
+  "keywords": [
+    "Node",
+    "TypeScript",
+    "MongoDB"
+  ],
+  "author": "Paulo Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prmorais13/api-rest-node-rafael/issues"
+  },
+  "homepage": "https://github.com/prmorais13/api-rest-node-rafael#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http-status": "^1.2.0",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/http-status": "^0.2.30",
+    "@types/mongoose": "^5.2.6",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^6.0.116",
+    "ts-node": "^7.0.1"
+  }
+}
